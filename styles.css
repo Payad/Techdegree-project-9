@@ -1,0 +1,771 @@
+ /* body { 
+     background-image: url(images/pexels-miriam-espacio-galaxy.jpg); */
+     /* background: url(images/pexels-miriam-espacio-galaxy.jpg) no-repeat;
+     background-position: center center fixed; */
+     
+     /* background-size: contain; 
+     background-size: cover;  */
+     /* background-size: no-repeat top center fixed; */
+     /* width: 100%;
+    height: 100%;  */
+ /* }  */
+
+ /* img {
+     image-rendering: pixelated;
+ } */
+
+/* .background-image {
+    height: 100%;
+    min-height: 700px;
+    background-size: cover;
+    position: relative;
+    image-rendering: pixelated;
+} */
+
+body, html {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+canvas {
+    position:absolute;
+    top:0;
+    left:0
+}
+
+.navbar {
+    font-size: 10px;
+    /* justify-content: flex-end; */
+}
+
+.form-control {
+    height: 25px;
+    margin-left: 20px;
+}
+
+.btn-outline-success {
+    color: blue;
+    background-color: transparent;
+    background-image: none;
+    border-color: blue;
+    height: 25px;
+    font-size: 10px
+}
+
+.btn {
+    padding: 5px;
+}
+
+h4 {
+    position: absolute;
+    font-size: 12px;
+    margin-left: 15%;
+    margin-top: 10%;
+    color: blue;
+}
+
+/* .title {
+    color: white;
+    font-size: 10px;
+    margin-left: 85px;
+    padding-top: 20px;
+}
+
+.title-2 {
+    color: white;
+    font-size: 10px;
+    margin-left: 95px;
+
+} */
+
+/* .mt-2 {
+    font-size: 10px;
+}
+
+h6 {
+    font-size: 10px;
+} */
+
+/* .card {
+    border: 2px solid black;
+    
+} */
+
+/* .middle {
+   
+    background-color: black;
+    color: white;
+    height: 9.5vh;
+    font-size: 15px;
+
+} */
+
+/* img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 100px;
+    border-radius: 40px;
+} */
+
+.galaxy-image {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 17%;;
+    border-radius: 60px;
+    margin-top: 25%;
+    animation: none;
+    cursor: pointer;
+   
+   
+}
+
+.galaxy-image:hover {
+   -webkit-animation: popout 2s ease-out;
+  
+
+   }
+
+   /* .image-desc {
+       animation: poput 2s ease-out;
+   } */
+
+
+
+
+
+
+.text-field.wrapper {
+  margin-top: 20%;
+  margin-left: 8%;
+   
+}
+
+.wrapper{
+    position: absolute;
+    /* top: 0px; */
+    color: white;
+    font-size: 8px;
+    margin : 20px;
+    /* margin-top: 0; */
+}
+
+h6.project-1 {
+    margin-left: 75px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-1 {
+    margin-left: 75px;
+}
+
+/* project 2 */
+img.meteor {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 70%;
+    border-radius: 60px;
+    margin-top: 40%;
+}
+
+.text-field-2.wrapper {
+    color: white;
+    /* font-size: 10px; */
+    margin-left: 45px;
+    margin-top: 35%;
+}
+
+h6.project-2 {
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-2 {
+    margin-left: 105px;
+}
+
+p.paragraph-2 {
+    margin-left: 45px;
+}
+
+/* project 3 */
+img.dreamstime {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 55px;
+    border-radius: 60px;
+    margin-top: 60%;
+}
+
+
+.text-field-3 {
+    color: white;
+   margin-top: 175px;
+    /* margin-top: 90px; */
+ 
+}
+
+h6.project-3 {
+    margin-left: 117px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-3 {
+    margin-left: 90px;
+}
+
+p.paragraph-3 {
+    margin-left: 45px;
+}
+
+/* project 4 */
+img.sun {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 65%;
+    border-radius: 60px;
+    margin-top: 80%;
+}
+
+
+.text-field-4 {
+    color: white;
+    margin-top: 77%;
+
+}
+
+h6.project-4 {
+    margin-left: 120px;
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-4 {
+    margin-left: 110px;
+}
+
+p.paragraph-4 {
+    margin-left: 45px;
+}
+
+/* project 5 */
+img.eclipse {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 10%;
+    border-radius: 60px;
+    margin-top: 100%;
+}
+
+.text-field-5 {
+   color: white;
+   margin-top: 97%;
+}
+
+h6.project-5 {
+    margin-left: 95px;
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-5 {
+    margin-left: 71px;
+}
+
+p.paragraph-5 {
+    margin-left: 45px;
+}
+
+/* project 6 */
+img.saturn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 75%;
+    border-radius: 60px;
+    margin-top: 117%;
+}
+
+
+.text-field-6 {
+    color: white;
+    margin-top: 57%;
+    margin-left: 90px;
+  
+}
+
+h6.project-6 {
+    margin-left: 90px;
+    margin-top: 140%;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-6 {
+    margin-left: 80px;
+}
+
+p.paragraph-6 {
+    margin-left: 45px;
+}
+
+/* project 7 */
+img.supernova {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 15%;
+    border-radius: 60px;
+    /* margin-top: 140%; */
+    margin-top: 130%;
+}
+
+
+.text-field-7 {
+    color: white;
+    margin-top: 125%;
+}
+   
+h6.project-7 {
+    margin-left: 92px;
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-7 {
+    margin-left: 75px;
+}
+
+p.paragraph-7 {
+    margin-left: 45px;
+}
+
+/* project 8 */
+img.blackhole {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 70%;
+    border-radius: 60px;
+    /* margin-top: 160%; */
+    margin-top: 150%;
+}
+
+
+.text-field-8 {
+    color: white;
+    margin-top: 145%;
+    /* margin-left: 60px; */
+    margin-left: 65px;
+   
+}
+
+h6.project-8 {
+    margin-left: 90px;
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-8 {
+    margin-left: 75px;
+}
+
+p.paragraph-8 {
+    margin-left: 45px;
+}
+
+footer.page-footer.font-small.blue {
+    position: fixed;
+    /* bottom: 20px; */
+    bottom: 0px;
+    /* font-size: 40px; */
+    margin-left: 18%;
+}
+
+img.facebook-icon {
+    position: initial;
+    /* width: 20px; */
+    height: 20px;
+    border-radius: 4px;
+    margin-left: 80px;
+}
+
+img.linkedin-icon {
+    position: initial;
+    /* width: 26px; */
+    height: 20px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.flex-footer {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    /* .background-image {
+        height: 100%;
+        min-height: 600px;
+      } */
+
+      canvas {
+          width: 768px;
+          height: 682px;
+          image-rendering: pixelated;
+      }
+
+      .navbar {
+          justify-content: flex-end;
+      }
+
+      .form-control {
+        height: 25px;
+    }
+
+    .btn-outline-success {
+        color: blue;
+        background-color: transparent;
+        background-image: none;
+        border-color: blue;
+        height: 25px;
+        font-size: 10px
+    }
+
+    .btn {
+        padding: 5px;
+    }
+
+      h4 {
+          font-size: 25px;
+          margin-top: 10px;
+          margin-left: 20%;
+      }
+
+      /* Project 1 */
+      .galaxy-image {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 10%;;
+        border-radius: 60px;
+        margin-top: 13%;
+    }
+
+    .text-field.wrapper {
+        margin-top: 11%;
+        margin-left: 9%;
+    }
+
+    /* project 2 */
+    img.meteor {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 70%;
+        border-radius: 60px;
+        margin-top: 20%;
+    }
+
+    .text-field-2.wrapper {
+        color: white;
+        /* font-size: 10px; */
+        margin-left: 47%;
+        margin-top: 18%;
+    }
+
+    /* Project 3 */
+    img.dreamstime {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 30%;
+        border-radius: 60px;
+        margin-top: 29%;
+    }
+
+    .text-field-3 {
+        color: white;
+       margin-top: 27%;
+       margin-left: 25%;
+        /* margin-top: 90px; */
+     
+    }
+
+    /* project 4 */
+    img.sun {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 85%;
+        border-radius: 60px;
+        margin-top: 40%;
+    }
+
+    .text-field-4 {
+        color: white;
+        margin-top: 38%;
+        margin-left: 62%;
+    }
+
+    /* project 5 */
+    img.eclipse {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 10%;
+        border-radius: 60px;
+        margin-top: 40%;
+    }
+    
+    .text-field-5 {
+       color: white;
+       margin-top: 39%;
+       margin-left: 8%;
+    }
+
+    /* project 6 */
+    img.saturn {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 50%;
+        border-radius: 60px;
+        margin-top: 50%;
+    }
+    
+    .text-field-6 {
+        color: white;
+        margin-top: 24%;
+        margin-left: 30%;
+      
+    }
+
+    /* project 7 */
+    img.supernova {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 15%;
+        border-radius: 60px;
+        margin-top: 60%;
+    }
+    
+    
+    .text-field-7 {
+        color: white;
+        margin-top: 58%;
+        margin-left: 13%;
+    }
+
+    /* project 8 */
+    img.blackhole {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 75%;
+        border-radius: 60px;
+        margin-top: 60%;
+    }
+    
+    
+    .text-field-8 {
+        color: white;
+        margin-top: 58%;
+        margin-left: 55%;
+       
+    }
+
+    /* footer */
+    footer.page-footer.font-small.blue {
+        position: fixed;
+        /* bottom: 20px; */
+        bottom: 0px;
+        /* font-size: 40px; */
+        margin-left: 35%;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    canvas {
+        min-width: 1024px;
+        height: 682px;
+        image-rendering: pixelated;
+    }
+
+    .galaxy-image {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 12%;;
+        border-radius: 60px;
+        margin-top: 10%;
+    }
+    
+    .text-field.wrapper {
+      margin-top: 8%;
+      margin-left: 10%;
+       
+    }
+
+    img.meteor {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 70%;
+        border-radius: 60px;
+        margin-top: 12%;
+    }
+    
+    .text-field-2.wrapper {
+        color: white;
+        /* font-size: 10px; */
+        margin-left: 52%;
+        margin-top: 10%;
+    }
+
+    img.dreamstime {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 28%;
+        border-radius: 60px;
+        margin-top: 20%;
+    }
+    
+    
+    .text-field-3 {
+        color: white;
+       margin-top: 190px;
+        /* margin-top: 90px; */
+     
+    }
+
+    img.sun {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 85%;
+        border-radius: 60px;
+        margin-top: 25%;
+    }
+    
+    
+    .text-field-4 {
+        color: white;
+        margin-top: 24%;
+        margin-left: 68%;
+    
+    }
+
+    img.eclipse {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 10%;
+        border-radius: 60px;
+        margin-top: 30%;
+    }
+    
+    .text-field-5 {
+       color: white;
+       margin-top: 30%;
+    }
+
+    img.saturn {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 55%;
+        border-radius: 60px;
+        margin-top: 35%;
+    }
+    
+    
+    .text-field-6 {
+        color: white;
+        margin-top: 15%;
+        margin-left: 40%;
+      
+    }
+
+    img.supernova {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 15%;
+        border-radius: 60px;
+        /* margin-top: 140%; */
+        margin-top: 45%;
+    }
+    
+    
+    .text-field-7 {
+        color: white;
+        margin-top: 44%;
+    }
+
+    img.blackhole {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 79%;
+        border-radius: 60px;
+        /* margin-top: 160%; */
+        margin-top: 50%;
+    }
+    
+    
+    .text-field-8 {
+        color: white;
+        margin-top: 48%;
+        /* margin-left: 60px; */
+        margin-left: 63%;
+       
+    }
+       
+
+    @keyframes popout {
+        0% {
+            -moz-tranform: scale(0);
+            -webkit-transform: scale(0);
+            -o-transform: scale(0);
+            transform: scale(0);
+             
+        }
+        30% {
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+        60% {
+            -moz-transform: scale(0.9);
+            -webkit-transform: scale(0.9);
+            -o-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+    }
+    
+}
